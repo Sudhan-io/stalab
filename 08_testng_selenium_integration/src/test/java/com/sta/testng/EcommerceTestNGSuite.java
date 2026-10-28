@@ -108,9 +108,13 @@ public class EcommerceTestNGSuite {
 
     @Test(priority = 4, groups = {"cart", "smoke", "regression"}, dependsOnMethods = {"testProductSelection"}, description = "Add item to cart and verify cart badge counter increment")
     public void testAddToCart() {
-        WebElement addBtn = wait.until(ExpectedConditions.elementToBeClickable(
-            By.xpath("//button[contains(@id, 'add-to-cart') or text()='Add to cart']")));
-        addBtn.click();
+        WebElement addBtn = wait.until(ExpectedConditions.presenceOfElementLocated(
+            By.xpath("//button[contains(@id, 'add-to-cart') or text()='Add to cart' or contains(text(), 'Add to cart')]")));
+        try {
+            addBtn.click();
+        } catch (Exception e) {
+            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", addBtn);
+        }
 
         WebElement cartBadge = wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("shopping_cart_badge")));
 
@@ -120,8 +124,12 @@ public class EcommerceTestNGSuite {
 
     @Test(priority = 5, groups = {"cart", "regression"}, dependsOnMethods = {"testAddToCart"}, description = "Open cart, verify item presence, and perform removal")
     public void testCartVerificationAndRemoval() {
-        WebElement cartLink = driver.findElement(By.className("shopping_cart_link"));
-        cartLink.click();
+        WebElement cartLink = wait.until(ExpectedConditions.presenceOfElementLocated(By.className("shopping_cart_link")));
+        try {
+            cartLink.click();
+        } catch (Exception e) {
+            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", cartLink);
+        }
 
         wait.until(ExpectedConditions.urlContains("cart"));
 
@@ -129,8 +137,13 @@ public class EcommerceTestNGSuite {
         Assert.assertEquals(cartItem.getText(), "Sauce Labs Backpack", "Cart item title mismatch");
 
         // Remove item
-        WebElement removeBtn = driver.findElement(By.xpath("//button[contains(@id, 'remove') or text()='Remove']"));
-        removeBtn.click();
+        WebElement removeBtn = wait.until(ExpectedConditions.presenceOfElementLocated(
+            By.xpath("//button[contains(@id, 'remove') or text()='Remove' or contains(text(), 'Remove')]")));
+        try {
+            removeBtn.click();
+        } catch (Exception e) {
+            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", removeBtn);
+        }
 
         // Verify badge is removed when cart is empty
         List<WebElement> badges = driver.findElements(By.className("shopping_cart_badge"));

@@ -19,7 +19,10 @@ public class DataDrivenLoginTest {
     @BeforeMethod(alwaysRun = true)
     public void setUp() {
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless=new");
+        boolean headless = Boolean.parseBoolean(System.getProperty("headless", "true"));
+        if (headless) {
+            options.addArguments("--headless=new");
+        }
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--disable-gpu");

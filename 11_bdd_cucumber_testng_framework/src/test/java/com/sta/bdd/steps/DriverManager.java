@@ -11,7 +11,10 @@ public class DriverManager {
     public static WebDriver getDriver() {
         if (driverThreadLocal.get() == null) {
             ChromeOptions options = new ChromeOptions();
-            options.addArguments("--headless=new");
+            boolean headless = Boolean.parseBoolean(System.getProperty("headless", "true"));
+            if (headless) {
+                options.addArguments("--headless=new");
+            }
             options.addArguments("--no-sandbox");
             options.addArguments("--disable-dev-shm-usage");
             options.addArguments("--disable-gpu");

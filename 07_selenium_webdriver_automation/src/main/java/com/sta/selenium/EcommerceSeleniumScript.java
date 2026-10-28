@@ -128,7 +128,8 @@ public class EcommerceSeleniumScript {
             // STEP 4: AUTOMATE CART MANAGEMENT
             // ==========================================
             System.out.println("\n[STEP 4] Automating Cart Operations...");
-            WebElement addToCartBtn = driver.findElement(By.xpath("//button[contains(@id, 'add-to-cart') or text()='Add to cart']"));
+            WebElement addToCartBtn = wait.until(ExpectedConditions.elementToBeClickable(
+                By.xpath("//button[contains(@id, 'add-to-cart') or text()='Add to cart' or contains(text(), 'Add to cart')]")));
             addToCartBtn.click();
             System.out.println("  * Clicked 'Add to cart'.");
 
@@ -137,18 +138,27 @@ public class EcommerceSeleniumScript {
             System.out.println("  * Verified Cart Badge Count: " + cartBadge.getText());
 
             // Navigate to Cart
-            WebElement cartLink = driver.findElement(By.className("shopping_cart_link"));
-            cartLink.click();
+            WebElement cartLink = wait.until(ExpectedConditions.presenceOfElementLocated(By.className("shopping_cart_link")));
+            try {
+                cartLink.click();
+            } catch (Exception e) {
+                ((JavascriptExecutor) driver).executeScript("arguments[0].click();", cartLink);
+            }
             wait.until(ExpectedConditions.urlContains("cart"));
             takeScreenshot(driver, "05_cart_page.png");
 
             // Verify item in cart
-            WebElement cartItemName = driver.findElement(By.className("inventory_item_name"));
+            WebElement cartItemName = wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("inventory_item_name")));
             System.out.println("  * Verified Item in Cart: " + cartItemName.getText());
 
             // Remove item from cart
-            WebElement removeBtn = driver.findElement(By.xpath("//button[contains(@id, 'remove') or text()='Remove']"));
-            removeBtn.click();
+            WebElement removeBtn = wait.until(ExpectedConditions.presenceOfElementLocated(
+                By.xpath("//button[contains(@id, 'remove') or text()='Remove' or contains(text(), 'Remove')]")));
+            try {
+                removeBtn.click();
+            } catch (Exception e) {
+                ((JavascriptExecutor) driver).executeScript("arguments[0].click();", removeBtn);
+            }
             System.out.println("  * Removed item from Cart.");
             takeScreenshot(driver, "06_item_removed.png");
 
