@@ -40,3 +40,4 @@ public class ShoppingTestPlanValidator {
         return plan.getSchedule().stream().mapToInt(ShoppingTestPlanModel.SchedulePhase::getDurationDays).sum();
     }
 }
+

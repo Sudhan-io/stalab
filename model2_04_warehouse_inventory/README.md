@@ -33,3 +33,4 @@ Develops a comprehensive test plan and designs/executes test cases for a warehou
    mvn clean package
    java -cp target/model2_04_warehouse_inventory-1.0.0.jar com.sta.warehouse.WarehouseInventoryApp
    ```
+

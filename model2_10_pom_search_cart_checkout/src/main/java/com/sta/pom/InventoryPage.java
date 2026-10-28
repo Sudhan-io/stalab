@@ -60,3 +60,4 @@ public class InventoryPage extends BasePage {
         click(cartLink);
     }
 }
+

@@ -35,3 +35,4 @@ public class DefectModel {
     public String getActualResult() { return actualResult; }
     public String getStatus() { return status; }
 }
+

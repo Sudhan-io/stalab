@@ -23,3 +23,4 @@ public class LoginPage extends BasePage {
         click(loginButton);
     }
 }
+

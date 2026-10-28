@@ -13,3 +13,4 @@ public class SortingCheckoutTest {
         assertTrue(passed, "Selenium end-to-end sorting and checkout automation should pass");
     }
 }
+

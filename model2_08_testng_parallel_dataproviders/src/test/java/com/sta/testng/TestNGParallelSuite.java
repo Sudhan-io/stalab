@@ -128,3 +128,4 @@ public class TestNGParallelSuite {
         wait.until(ExpectedConditions.urlContains("/inventory.html"));
     }
 }
+

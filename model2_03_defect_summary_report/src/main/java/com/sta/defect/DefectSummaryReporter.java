@@ -173,3 +173,4 @@ public class DefectSummaryReporter {
         reporter.printDefectSummaryReport();
     }
 }
+

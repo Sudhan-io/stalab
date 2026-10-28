@@ -128,3 +128,4 @@ Initialized WebDriver session for Data-Driven Testing on https://www.saucedemo.c
 
 Closed WebDriver session successfully.
 ```
+

@@ -33,3 +33,4 @@ Evaluates actual responses against expected responses and records defects with c
    mvn clean package
    java -cp target/model2_05_clientserver_input_validation-1.0.0.jar com.sta.clientserver.ClientServerTestSuite
    ```
+

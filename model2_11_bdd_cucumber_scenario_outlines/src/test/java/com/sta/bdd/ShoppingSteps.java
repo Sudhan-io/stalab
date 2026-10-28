@@ -102,3 +102,4 @@ public class ShoppingSteps {
         Assert.assertEquals(header.getText().trim(), expectedMessage, "Complete header should match expected message");
     }
 }
+

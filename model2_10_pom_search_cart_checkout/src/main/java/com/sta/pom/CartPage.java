@@ -34,3 +34,4 @@ public class CartPage extends BasePage {
         click(checkoutButton);
     }
 }
+

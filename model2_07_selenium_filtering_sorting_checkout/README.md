@@ -36,3 +36,4 @@ Automates complete end-to-end user journeys using Selenium WebDriver:
    ```bash
    mvn exec:java -Dheadless=false
    ```
+

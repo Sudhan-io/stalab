@@ -66,3 +66,4 @@ public class PerformanceMetrics {
     public long getMemoryUsedMb() { return memoryUsedMb; }
     public int getActiveThreadCount() { return activeThreadCount; }
 }
+

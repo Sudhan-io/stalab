@@ -38,3 +38,4 @@ public class ClientServerValidationTest {
         assertEquals(3, failed, "3 tests should fail and flag realistic functional/input/error defects with evidence");
     }
 }
+

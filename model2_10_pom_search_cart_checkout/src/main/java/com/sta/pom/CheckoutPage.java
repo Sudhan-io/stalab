@@ -37,3 +37,4 @@ public class CheckoutPage extends BasePage {
         click(finishButton);
     }
 }
+

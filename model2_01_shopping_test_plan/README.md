@@ -28,3 +28,4 @@ mvn compile exec:java
 
 ## 📑 Lab Manual
 Refer to [`EXP.md`](file:///d:/PROJECTS/stalab/model2_01_shopping_test_plan/EXP.md) for the complete laboratory writeup (Aim, Algorithm/Procedure, Main Java Program, and Sample Execution Output).
+

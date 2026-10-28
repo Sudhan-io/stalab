@@ -28,3 +28,4 @@ Executes designed test cases against an e-commerce shopping application to ident
    mvn clean package
    java -cp target/model2_03_defect_summary_report-1.0.0.jar com.sta.defect.DefectSummaryReporter
    ```
+

@@ -207,3 +207,4 @@ DEF-05   | Product Browsing   | Moderate   | P3 - Low   | Price sort Low-to-High
 DEF-06   | Order Placement    | Critical   | P1 - High  | Payment gateway triggers duplicate charges on rapid double-click
 ==========================================================================================
 ```
+

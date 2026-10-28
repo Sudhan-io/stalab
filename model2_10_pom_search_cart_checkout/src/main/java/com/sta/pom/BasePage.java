@@ -38,3 +38,4 @@ public abstract class BasePage {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator)).getText().trim();
     }
 }
+

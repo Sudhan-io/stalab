@@ -31,3 +31,4 @@ public class PerformanceLoadTest {
         assertTrue(normal.getMemoryUsedMb() > 0, "Memory used must be tracked");
     }
 }
+

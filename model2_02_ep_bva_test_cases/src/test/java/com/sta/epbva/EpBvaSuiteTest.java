@@ -49,3 +49,4 @@ public class EpBvaSuiteTest {
         assertTrue(engine.validatePayment("4111222233334444", "123", 50000.01).contains("ERROR"));
     }
 }
+

@@ -33,3 +33,4 @@ public class Supplier {
     public String getTaxId() { return taxId; }
     public boolean isActive() { return active; }
 }
+

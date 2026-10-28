@@ -37,3 +37,4 @@ Analyzes key performance indicators:
    mvn clean package
    java -cp target/model2_06_load_peak_heavy_performance-1.0.0.jar com.sta.performance.PerformanceReportApp
    ```
+

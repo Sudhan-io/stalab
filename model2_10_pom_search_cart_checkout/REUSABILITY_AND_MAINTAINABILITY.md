@@ -22,3 +22,4 @@ The Page Object Model (POM) pattern separates test logic from UI layout and DOM 
   Assert.assertEquals(completePage.getConfirmationMessage(), "Thank you for your order!");
   ```
 - **Reduced Code Duplication**: Eliminates repetitive `WebDriverWait` boilerplate from the actual test classes.
+

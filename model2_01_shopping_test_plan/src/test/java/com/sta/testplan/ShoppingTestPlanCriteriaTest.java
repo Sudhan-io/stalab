@@ -46,3 +46,4 @@ public class ShoppingTestPlanCriteriaTest {
         assertEquals(35, totalDays);
     }
 }
+

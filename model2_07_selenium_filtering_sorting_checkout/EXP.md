@@ -198,3 +198,4 @@ public class SortingCheckoutAutomation {
   Confirmation Received: Thank you for your order!
   PASS: End-to-end checkout assertion validated.
 ```
+

@@ -17,3 +17,4 @@ Feature: E-Commerce Shopping Journey and Authentication
     When user adds "sauce-labs-backpack" and "sauce-labs-bike-light" to the cart
     And user proceeds through checkout with "Diana" "Prince" "90210"
     Then order confirmation message should be "Thank you for your order!"
+

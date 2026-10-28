@@ -34,3 +34,4 @@ Constructs a robust Page Object Model (POM) automation architecture using Seleni
    ```bash
    mvn test -Dheadless=false
    ```
+

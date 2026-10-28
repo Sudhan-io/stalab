@@ -22,3 +22,4 @@ public class DefectSummaryTest {
         assertEquals(3, p1Count, "Should classify 3 P1 High priority defects");
     }
 }
+
