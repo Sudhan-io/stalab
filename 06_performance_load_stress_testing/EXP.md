@@ -1,4 +1,5 @@
 # Experiment 6: E-Commerce Performance Load and Stress Testing
+> **Lab Exam Coverage:** Applicable for **Model 1 (Question 6)** and **Model 2 (Question 6)**.
 
 ## Aim
 To evaluate the performance of an e-commerce application under normal and peak operating conditions by conducting automated Load and Stress tests, analyze response times (Average, Min, Max, $p_{90}, p_{95}, p_{99}$ percentiles), throughput (Transactions Per Second / TPS), and error rate, and generate a performance benchmark report.

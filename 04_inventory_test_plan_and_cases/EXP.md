@@ -1,4 +1,5 @@
 # Experiment 4: Inventory Control System Test Plan, Design & Implementation
+> **Lab Exam Coverage:** Applicable for **Model 1 (Question 4)** and **Model 2 (Question 4)**.
 
 ## Aim
 To develop a test plan and design test cases for an Inventory Control System covering Product Addition, Stock Updates (Replenishment and Deductions), Stock Availability Checks, Low-Stock Alert Mechanisms, and Inventory Valuation Reports, and execute them programmatically.

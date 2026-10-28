@@ -1,4 +1,5 @@
 # Experiment 1: E-Commerce Test Plan Specification & Validation
+> **Lab Exam Coverage:** Applicable for **Model 1 (Question 1)** and **Model 2 (Question 1)**.
 
 ## Aim
 To develop a comprehensive test plan for testing an e-commerce web or mobile application (such as Amazon) according to IEEE 829 standards, specifying the testing objectives, scope, test environment, resources, test strategy, schedule, entry criteria, and exit criteria, and validating quality gates programmatically.

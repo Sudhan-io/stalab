@@ -1,4 +1,5 @@
 # Experiment 11: Behaviour-Driven Development (BDD) Framework using Cucumber, Selenium & TestNG
+> **Lab Exam Coverage:** Applicable for **Model 2 (Question 11)**.
 
 ## Aim
 To build a Behaviour-Driven Development (BDD) test automation framework using Cucumber, Selenium WebDriver, and TestNG, write feature files using human-readable Gherkin syntax (`Given`, `When`, `Then`, `And`), implement step definitions, execute positive and negative scenarios, and evaluate test results on a real e-commerce storefront (`https://www.saucedemo.com`).

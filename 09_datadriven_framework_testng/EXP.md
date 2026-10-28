@@ -1,4 +1,5 @@
 # Experiment 9: Data-Driven Automation Framework using Selenium & TestNG
+> **Lab Exam Coverage:** Applicable for **Model 1 (Question 9)** and **Model 2 (Question 9)**.
 
 ## Aim
 To build a data-driven automation testing framework using Selenium WebDriver and TestNG, read external test data from a CSV file (`login_data.csv`), and execute the same test cases across multiple positive, negative, and edge-case datasets against a real e-commerce website (`https://www.saucedemo.com`).

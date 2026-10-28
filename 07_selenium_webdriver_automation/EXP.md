@@ -1,4 +1,5 @@
 # Experiment 7: Selenium WebDriver E-Commerce Automation
+> **Lab Exam Coverage:** Applicable for **Model 1 (Question 7)** and **Model 2 (Question 7)**.
 
 ## Aim
 To develop and execute Selenium WebDriver automation scripts to automate User Login, Product Catalog Search, Product Selection, Cart Operations (Add/Remove), and Screenshot Capture on a live, real-world e-commerce application (`https://www.saucedemo.com`).

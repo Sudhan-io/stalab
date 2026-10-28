@@ -1,4 +1,5 @@
 # Experiment 3: E-Commerce Defect Identification & Formal Reporting
+> **Lab Exam Coverage:** Applicable for **Model 1 (Question 3)** and **Model 2 (Question 3)**.
 
 ## Aim
 To test an e-commerce application by executing designed test cases, identify functional and data-integrity defects, and prepare a formal defect report containing Defect ID, Description, Steps to Reproduce, Severity, Priority, Expected Result, and Actual Result.

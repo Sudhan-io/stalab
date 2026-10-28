@@ -1,4 +1,5 @@
 # Experiment 8: TestNG & Selenium WebDriver Integration
+> **Lab Exam Coverage:** Applicable for **Model 1 (Question 8)** and **Model 2 (Question 8)**.
 
 ## Aim
 To integrate TestNG with Selenium WebDriver automation scripts to automate an actual e-commerce application (`https://www.saucedemo.com`), implement test annotations (`@BeforeSuite`, `@BeforeClass`, `@Test`, `@AfterClass`, `@AfterSuite`), hard and soft assertions, test method grouping (`smoke`, `regression`, `cart`), prioritization, and custom execution listener reporting.

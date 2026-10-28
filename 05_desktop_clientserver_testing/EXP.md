@@ -1,4 +1,5 @@
 # Experiment 5: Client-Server & Desktop Application Testing (Functional & Usability)
+> **Lab Exam Coverage:** Applicable for **Model 1 (Question 5)** and **Model 2 (Question 5)**.
 
 ## Aim
 To execute test cases against a multi-threaded client–server or desktop banking application, identify functional defects (concurrency race conditions, unhandled exceptions) and usability defects (UI thread freezing, lack of confirmation prompts, cryptic error messages), analyze their severity, and prepare a detailed defect report.

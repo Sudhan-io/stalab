@@ -1,4 +1,5 @@
 # Experiment 10: Page Object Model (POM) Automation Framework
+> **Lab Exam Coverage:** Applicable for **Model 2 (Question 10)**.
 
 ## Aim
 To develop a robust, maintainable UI automation framework using Selenium WebDriver, TestNG, and the Page Object Model (POM) design pattern, automate User Login, Product Search, Product Selection, and Cart Operations against a real e-commerce store (`https://www.saucedemo.com`), and evaluate the framework's maintainability.

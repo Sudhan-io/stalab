@@ -1,4 +1,5 @@
 # Experiment 2: E-Commerce Test Case Design & Automated Execution
+> **Lab Exam Coverage:** Applicable for **Model 1 (Question 2)** and **Model 2 (Question 2)**.
 
 ## Aim
 To design, document, and execute appropriate test cases for an e-commerce application covering User Registration, Login, Product Search, Product Selection, Cart Management, Checkout, Payment, and Order Confirmation, and compute the test execution pass rate against business validation rules.
