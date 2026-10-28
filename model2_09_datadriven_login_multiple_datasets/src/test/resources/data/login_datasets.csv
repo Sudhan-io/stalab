@@ -1,0 +1,7 @@
+scenario_id,username,password,expected_outcome,expected_message
+SCN_POS_01,standard_user,secret_sauce,SUCCESS,/inventory.html
+SCN_NEG_02,locked_out_user,secret_sauce,ERROR,Sorry, this user has been locked out.
+SCN_NEG_03,standard_user,invalid_pwd_99,ERROR,Username and password do not match
+SCN_NEG_04,__EMPTY__,secret_sauce,ERROR,Username is required
+SCN_NEG_05,standard_user,__EMPTY__,ERROR,Password is required
+SCN_POS_06,problem_user,secret_sauce,SUCCESS,/inventory.html

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="EcommerceParallelDataProvidersSuite" verbose="1">
+    <listeners>
+        <listener class-name="com.sta.testng.CustomReportListener"/>
+    </listeners>
+
+    <test name="SauceDemoAutomationTests">
+        <classes>
+            <class name="com.sta.testng.TestNGParallelSuite"/>
+        </classes>
+    </test>
+</suite>
