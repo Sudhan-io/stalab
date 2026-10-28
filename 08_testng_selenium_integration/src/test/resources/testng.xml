@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Ecommerce Selenium TestNG Suite" verbose="1">
+    <listeners>
+        <listener class-name="com.sta.testng.listener.CustomTestNGListener" />
+    </listeners>
+
+    <test name="E-Commerce End-to-End Regression Tests">
+        <classes>
+            <class name="com.sta.testng.EcommerceTestNGSuite" />
+        </classes>
+    </test>
+</suite>
+

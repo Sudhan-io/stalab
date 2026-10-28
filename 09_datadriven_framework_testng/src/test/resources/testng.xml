@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Data-Driven Testing Suite" verbose="1">
+    <test name="CSV Data-Driven Authentication Tests">
+        <classes>
+            <class name="com.sta.datadriven.DataDrivenLoginTest" />
+        </classes>
+    </test>
+</suite>
+

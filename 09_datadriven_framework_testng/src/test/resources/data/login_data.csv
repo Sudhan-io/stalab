@@ -1,0 +1,8 @@
+testCaseId,username,password,expectedStatus,expectedMessage
+TC_DDT_01,standard_user,secret_sauce,SUCCESS,inventory.html
+TC_DDT_02,locked_out_user,secret_sauce,ERROR,locked out
+TC_DDT_03,standard_user,wrong_password_123,ERROR,Username and password do not match
+TC_DDT_04,unregistered_customer,secret_sauce,ERROR,Username and password do not match
+TC_DDT_05,,secret_sauce,ERROR,Username is required
+TC_DDT_06,standard_user,,ERROR,Password is required
+
