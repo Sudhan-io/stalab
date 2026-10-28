@@ -162,3 +162,4 @@ public class EcommercePOMTest extends BaseTest {
 Results:
 Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
 ```
+

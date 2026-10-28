@@ -314,3 +314,4 @@ Scenario: Adding product to cart and verifying cart contents
 Results:
 Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
 ```
+
