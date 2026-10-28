@@ -1,8 +1,8 @@
-# Maven build outputs
+# Build outputs (generated when running 'mvn test' or 'mvn compile')
 target/
 **/target/
 
-# IDE files
+# IDE metadata (Eclipse, IntelliJ IDEA, VS Code)
 .idea/
 *.iml
 .vscode/
@@ -10,9 +10,6 @@ target/
 .project
 .classpath
 
-# OS files
+# OS temporary files
 .DS_Store
 Thumbs.db
-
-# Log files
-*.log
